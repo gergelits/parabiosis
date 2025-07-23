@@ -10,7 +10,7 @@ This repository contains Stan and R scripts and data for modelling and analysing
 
 - Stan and R scripts implementing models of lymphocyte migration  
 - Data sets used for model validation and analysis  
-- Scripts for statistical analysis and visualisation of migration behaviour  
+- R Scripts for statistical analysis and visualisation of migration behaviour  
 
 
 ## Usage
