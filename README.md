@@ -25,8 +25,9 @@ bash batch_ssub_args_cluster_m0003_i5004.sh
 ```
 5. **Run a selected single model** (one cell type–tissue combination) from within R:
 ```R
-source("batch_args_cluster.r"). Customize the script arguments as needed for your selected model.
+source("batch_args_cluster.r")
 ```
+Customise the script arguments as needed for your selected model.
 
 
 ## License
