@@ -1,0 +1,6 @@
+"celltype","n_cells_born_per_day"
+"Treg",100000
+"Tconv",500000
+"CD8",200000
+"NK",15000
+"B",4000000
