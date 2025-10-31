@@ -8,8 +8,8 @@
 # This software may be modified and distributed under the terms of the MIT
 # license. See the LICENSE file for details.
 
-# Runs MCMC simulation of parabiosis study of T cell kinetics, creating all 
-# figures and tables used in tissue Treg manuscript.
+# Runs MCMC simulation, simulation of cell population based on Markov chain model,
+# and creates all figures and tables used in the manuscript.
 
 
 calculate_parabiosis_paper <- function( 
@@ -22,13 +22,13 @@ calculate_parabiosis_paper <- function(
     # use precalculated MCMC simulations
     use_analysis_done_as_input = FALSE,
     # stan model file name (without extension .stan)
-    MODEL_NAME = "model_m0001",
+    MODEL_NAME = "model_m0003",
     # stan_pars
     stan_pars_v = "v01",
     # mcmc_pars
-    mcmc_pars_v = "i101",
+    mcmc_pars_v = "i1001",
     # combined dwell time simulations
-    n_sim = 100 )
+    n_sim = 1000 )
 
 {
   # A few Tissue - Cell type combinations that are not calculated
