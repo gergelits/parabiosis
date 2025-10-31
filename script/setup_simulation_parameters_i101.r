@@ -1,6 +1,6 @@
 # setup_simulation_parameters_i101.r
 
-seed.base <- 20190601
+seed.base <- 20230101
 seed <- set_seed_here_visible( seed.base, "markov model" )
 mcmc.iter.n <- 200
 mcmc.warmup.n <- 100
