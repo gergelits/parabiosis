@@ -1,4 +1,4 @@
-# set_model_parameters_v08.r
+# set_model_parameters_v01.r
 
 WEEK0 <- 0; 
 HDR <- 0; 
