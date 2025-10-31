@@ -16,7 +16,7 @@ PS <- SET_PATHS( PROJECT_PATH = MY_PROJECT_PATH )
 FF_CELLTYPE <- "Tconv"  
 FF_TISSUE <- "Brain"    # tissue of interest
 FF_TIS_0 <- "NULL"      # any extra compartment (good choice is also "Spleen")
-FF_MODEL_ID <- "m0006"  # id of Markov chain model coded in Stan
+FF_MODEL_ID <- "m0003"  # id of Markov chain model coded in Stan
 FF_MCMC <- "i1001"       # file id with number of MCMC Markov chain simulations
 FF_N_SIM <- 1001        # number of synthetic cells for simulating 
                         # cell behaviour based on already MCMC-estimated model
